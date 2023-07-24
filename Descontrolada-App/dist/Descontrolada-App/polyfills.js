@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\workspace\Front\Descontrolada-App\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! C:\workspace\descontrolada-app\Descontrolada-App\src\polyfills.ts */"hN/g");
 
 
 /***/ }),

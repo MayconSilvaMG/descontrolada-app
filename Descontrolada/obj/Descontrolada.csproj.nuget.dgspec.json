@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\Descontrolada\\Descontrolada\\Descontrolada.csproj": {}
+    "c:\\workspace\\descontrolada-app\\Descontrolada\\Descontrolada.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\Descontrolada\\Descontrolada\\Descontrolada.csproj": {
+    "c:\\workspace\\descontrolada-app\\Descontrolada\\Descontrolada.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\Descontrolada\\Descontrolada\\Descontrolada.csproj",
+        "projectUniqueName": "c:\\workspace\\descontrolada-app\\Descontrolada\\Descontrolada.csproj",
         "projectName": "Descontrolada",
-        "projectPath": "C:\\workspace\\Descontrolada\\Descontrolada\\Descontrolada.csproj",
+        "projectPath": "c:\\workspace\\descontrolada-app\\Descontrolada\\Descontrolada.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\Descontrolada\\Descontrolada\\obj\\",
+        "outputPath": "c:\\workspace\\descontrolada-app\\Descontrolada\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,14 +70,15 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
+              "version": "[5.0.17, 5.0.17]"
             }
           ],
           "frameworkReferences": {
@@ -87,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

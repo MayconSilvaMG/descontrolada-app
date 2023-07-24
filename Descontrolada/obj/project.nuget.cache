@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1LcLloT8MoWj9zamBlO17fgFLEj5TSW7HLC1KM5U+E8aJlv70p0M0naUlLY9uYWVwgawUN9N9fIs6LK5TbbeqQ==",
+  "dgSpecHash": "+axn8uPL7WQxxl444WIZpqoa9yaNXc0V//VRVn3ioK+dgxfpBjb6ovPuU0C5Pz7POA/EtwfsunTiOemyYbwKdg==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\Descontrolada\\Descontrolada\\Descontrolada.csproj",
+  "projectFilePath": "c:\\workspace\\descontrolada-app\\Descontrolada\\Descontrolada.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -39,7 +39,7 @@
     "C:\\Users\\User\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }
