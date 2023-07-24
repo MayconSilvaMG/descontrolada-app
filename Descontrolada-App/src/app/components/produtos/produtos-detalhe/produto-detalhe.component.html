@@ -1,0 +1,70 @@
+<div class="row">
+  <div class="container">
+    <div class="card rounded shadow-sm">
+      <form [formGroup]="form">
+        <div class="p-3">
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label>Nome</label>
+              <input type="text" class="form-control" formControlName="nome"
+              placeholder="Insira um nome" [(ngModel)]="produto.ProductName">
+              <div *ngIf="f.tema.errors?.required" class="invalid-feedback">
+                Nome é obrigatório.
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-3">
+              <label>Preço</label>
+              <input type="number" class="form-control" 
+              formControlName="preco" placeholder="Insira um preço" [(ngModel)]="produto.ProductPrice">
+              <div *ngIf="f.preco.errors?.required && f.preco.touched" class="invalid-feedback">
+                Preço é obrigatório.
+              </div>
+            </div>
+            <div class="form-group col-md-3">
+              <label>Quantidade</label>
+              <input type="number" class="form-control"  formControlName="quantidade"
+              placeholder="Insira uma quantidade" [(ngModel)]="produto.ProductQtd">
+              <div *ngIf="f.quantidade.errors?.required && f.quantidade.touched" class="invalid-feedback">
+                Quantidade é obrigatório.
+              </div>
+            </div>
+            <div class="form-group col-md-6">
+              <label>Tipo</label>
+              <input type="text" class="form-control"
+              formControlName="tipo"  placeholder="Insira um tipo(Orgânico ou Não Orgânico)" [(ngModel)]="produto.ProductType">
+              <div *ngIf="f.tipo.errors?.required && f.tipo.touched" class="invalid-feedback">
+                Tipo é obrigatório.
+              </div>
+            </div>
+          </div>
+          <div class="form-row"> 
+            <div class="form-group col-md-12">
+              <label>Descrição</label>
+              <input type="text" class="form-control" 
+              formControlName="descricao"  placeholder="Insira uma descrição" [(ngModel)]="produto.ProductDescription">
+              <div *ngIf="f.descricao.errors?.required && f.descricao.touched" class="invalid-feedback">
+                Descrição é obrigatório.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="d-flex">
+            <button class="btn btn-outline-secondary mr-auto border" (click)="resetForm()">
+              Cancelar Alteração
+            </button>
+            <button class="btn btn-success mx-2" routerLink="/produtos/lista">
+              Voltar
+            </button>
+            <button class="btn btn-success"(click)="saveProduct()" routerLink="/produtos/lista">
+              Salvar Produto
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+</div>
+</div>
+<br>
